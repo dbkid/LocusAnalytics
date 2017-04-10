@@ -1,0 +1,40 @@
+body{
+  font: inherit;
+  font-family: sans-serif;
+}
+
+.title{
+  margin-left: 150px;
+  line-height: 0;
+}
+
+.chart-container{
+  position: relative;
+}
+
+.activity-buttons{
+  position: absolute;
+  top: 50px;
+  left: 108px;
+  z-index: 5;
+  line-height: 0;
+}
+
+button{
+  background: black;
+  color: pink;
+}
+
+.object-buttons{
+  position: absolute;
+  left: 970px;
+  top: 520px;
+  line-height: 0;
+}
+
+.popup{
+  margin-left: 150px;
+  margin-bottom: 50px;
+  padding-top: 3px;
+  padding-left: 3px;
+}
