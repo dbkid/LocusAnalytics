@@ -1,11 +1,13 @@
 body{
   font: inherit;
   font-family: sans-serif;
+  margin: 0 auto;
 }
 
 .title{
   margin-left: 150px;
   line-height: 0;
+  width: 900px;
 }
 
 .chart-container{

@@ -69,7 +69,8 @@ d3.csv("./Locus_seattle_aerospace.csv", function(error, data) {
                 "Strategize 4.1","Manage 4.2","Audit & Fix 4.3", "-"],
     "a36": [" ","1.1.1","1.1.2", "1.1.3", "1.2.1", "1.2.2", "1.2.3","1.3.1", "1.3.2", "1.3.3",
                     "2.1.1","2.1.2", "2.1.3", "2.2.1", "2.2.2", "2.2.3","2.3.1", "2.3.2", "2.3.3",
-                    "3.1.1","3.1.2", "3.1.3", "3.2.1", "3.2.2", "3.2.3","3.3.1", "3.3.2", "3.3.3","-"]
+                    "3.1.1","3.1.2", "3.1.3", "3.2.1", "3.2.2", "3.2.3","3.3.1", "3.3.2", "3.3.3",
+                    "4.1.1","4.1.2", "4.1.3", "4.2.1", "4.2.2", "4.2.3","4.3.1", "4.3.2", "4.3.3", "-"]
   };
 
   objectDomains={
@@ -195,7 +196,7 @@ d3.csv("./Locus_seattle_aerospace.csv", function(error, data) {
   makeChart(dataGroupings["a4r4"],activityDomains[activityGrouping],objectDomains[objectGrouping]);
 
 
-  //event listeners on buttons to switch chart display 
+  //event listeners on buttons to switch chart display
   d3.selectAll(".activity").on("click", function(d){
     activityGrouping = d3.select(this).attr("id");
     activityDomain = activityDomains[activityGrouping];
