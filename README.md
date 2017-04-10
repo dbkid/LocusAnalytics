@@ -1,4 +1,4 @@
-The first thing I did when presented with this dataset was to try to understand what the data meant. Through looking at your website and additional research on Google, I was able to get a general sense of the meaning behind the syntax.
+The first thing I did when presented with this dataset was to try to understand what the data meant. Through looking at your website and additional research on Google I was able to get a general sense of the meaning behind the syntax.
 
 Because the point of the data is to group the companies according to function, I thought the best way to present it would be to display the different groupings that occur at the different levels of specificity contained in the syntax.
 
