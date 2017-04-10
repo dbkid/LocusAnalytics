@@ -13,6 +13,7 @@ d3.csv("./Locus_seattle_aerospace.csv", function(error, data) {
     .style("opacity", 0)
     .attr("class", "popup")
 
+  //create initial svg 
   var svg = d3.select(".chart-container").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -162,6 +163,8 @@ d3.csv("./Locus_seattle_aerospace.csv", function(error, data) {
         .style("stroke", function(d) { return '#'+ (Math.random()*0xFFFFFF<<0).toString(16)})
         .style("stroke-width", 5);
 
+
+      ///pop up
       d3.selectAll("circle").on("mouseover", function(d) {
         if (activityDomains["a36"].includes(d.activity)){
           if (d.count !== 1){
